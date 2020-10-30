@@ -18,41 +18,35 @@ body {
 .icon {
   width: 67px;
   height: 67px;
-  background-color: rgb(17,116,158);
-  box-shadow: 12px 9px rgba(255,255,255,0.5);
+  background-color: #11749e;
+  box-shadow: 12px 9px rgba(255, 255, 255, 0.5);
   display: inline-block;
-
-  p {
-    font-size: 31px;
-    margin: 0;
-  }
+}
+.icon p {
+  font-size: 31px;
+  margin: 0;
 }
 
 .nav {
   display: inline-block;
-
-  ul {
-    list-style: none;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
-
-    li {
-      padding: 0 30px;
-      font-size: 20px;
-
-      img {
-        background-color: black;
-        padding: 5px;
-      }
-    }
-  }
+}
+.nav ul {
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav ul li {
+  padding: 0 30px;
+  font-size: 20px;
+}
+.nav ul li img {
+  background-color: black;
+  padding: 5px;
 }
 
-
-
-.main{
+.main {
   height: 880px;
   background-image: url("../img/bg1.jpg");
   margin: 0;
@@ -61,20 +55,17 @@ body {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-
-  h2{
-    //font-family: Gotham;
-    font-size: 25px;
-    color: rgb(17,116,158);
-    text-transform: uppercase;
-    letter-spacing: 20px;
-    padding: 0;
-    margin: 0;
-  }
+}
+.main h2 {
+  font-size: 25px;
+  color: #11749e;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  padding: 0;
+  margin: 0;
 }
 
 h1 {
-  //font-family: Gotham;
   font-size: 152.54px;
   margin: 0;
   padding: 0;
@@ -82,4 +73,4 @@ h1 {
   font-weight: bold;
 }
 
-
+/*# sourceMappingURL=style.css.map */
