@@ -73,4 +73,71 @@ h1 {
   font-weight: bold;
 }
 
+#features {
+  height: 740px;
+  background-color: #11749e;
+}
+
+.ft_title {
+  height: 300px;
+  padding: 0;
+}
+
+.w {
+  position: relative;
+  font-size: 247px;
+  color: #3c8daf;
+  z-index: 1;
+  margin: 0;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 65px;
+}
+
+.awesome {
+  font-size: 36px;
+  position: relative;
+  z-index: 2;
+  margin: 0;
+  text-align: center;
+  margin-top: -240px;
+}
+
+.features {
+  height: 440px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature {
+  height: 275px;
+  width: 255px;
+  margin: 0 20px;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.feature h3 {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.feature p {
+  font-size: 15px;
+  margin: 0;
+}
+
+.circle {
+  width: 135px;
+  height: 135px;
+  background-color: #2e85aa;
+  border-radius: 50%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 /*# sourceMappingURL=style.css.map */

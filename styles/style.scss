@@ -63,7 +63,6 @@ body {
   align-items: center;
 
   h2{
-    //font-family: Gotham;
     font-size: 25px;
     color: rgb(17,116,158);
     text-transform: uppercase;
@@ -74,7 +73,6 @@ body {
 }
 
 h1 {
-  //font-family: Gotham;
   font-size: 152.54px;
   margin: 0;
   padding: 0;
@@ -82,4 +80,71 @@ h1 {
   font-weight: bold;
 }
 
+#features {
+  height: 740px;
+  background-color: rgb(17,116,158);
+}
 
+.ft_title{
+  height: 300px;
+  padding: 0;
+}
+
+.w {
+  position: relative;
+  font-size: 247px;
+  color: rgb(60,141,175);
+  z-index: 1;
+  margin: 0;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 65px;
+}
+
+.awesome {
+  font-size: 36px;
+  position: relative;
+  z-index: 2;
+  margin: 0;
+  text-align: center;
+  margin-top: -240px;
+}
+
+.features{
+  height: 440px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature {
+  height: 275px;
+  width: 255px;
+  margin: 0 20px;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+
+  h3 {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  p {
+    font-size: 15px;
+    margin: 0;
+
+  }
+}
+
+.circle {
+  width: 135px;
+  height: 135px;
+  background-color: rgb(46,133,170);
+  border-radius: 50%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
