@@ -140,4 +140,43 @@ h1 {
   align-items: center;
 }
 
+.pages {
+  height: 920px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.pages div {
+  width: 800px;
+  height: 460px;
+  overflow: hidden;
+}
+.pages div img {
+  width: 100%;
+}
+
+.page1 {
+  box-sizing: border-box;
+  background-color: #222222;
+  padding: 80px 115px 0 215px;
+  line-height: 1.5;
+}
+.page1 h3 {
+  font-size: 25px;
+}
+.page1 p {
+  font-size: 15px;
+}
+
+.page4 {
+  box-sizing: border-box;
+  background-color: #f3f3f3;
+  color: #222222;
+  padding: 100px 250px 0 80px;
+  line-height: 1.5;
+}
+
+.over_header {
+  font-size: 13px;
+}
+
 /*# sourceMappingURL=style.css.map */
