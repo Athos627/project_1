@@ -254,7 +254,7 @@ h1 {
 }
 
 .under_blog {
-  background-color: rgb(17,116,158,);
+  background-color: rgb(17,116,158);
   height: 355px;
   display: flex;
   flex-flow: row wrap;
@@ -265,6 +265,7 @@ h1 {
     width: 555px;
     height: 90px;
     padding: 0 30px;
+    display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: flex-start;
@@ -282,4 +283,58 @@ h1 {
       color: rgba(255,255,255,0.7);
     }
   }
+}
+
+.tutorials {
+  background-image: url("../img/bg7.jpg");
+  background-position: -5%;
+  height: 850px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  .smartfone {
+    height: 651px;
+    margin-right: 290px;
+  }
+}
+
+.text_tutorials {
+  width: 470px;
+  margin-left: 225px;
+
+  h3 {
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: rgba(255,255,255,0.7);
+    margin-bottom: 60px;
+  }
+
+  h4 {
+    font-size: 15px;
+    background-color: rgb(17,116,158);
+    display: inline-block;
+    padding-left: 19px;
+    padding-top: 14px;
+    padding-bottom: 13px;
+    margin: 12px 0;
+  }
+}
+
+.design {
+  padding-right: 135px;
+}
+
+.code {
+  padding-right: 219px;
+}
+
+.defferent {
+  padding-right: 159px;
 }

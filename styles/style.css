@@ -246,6 +246,7 @@ h1 {
   width: 555px;
   height: 90px;
   padding: 0 30px;
+  display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: flex-start;
@@ -260,6 +261,56 @@ h1 {
   line-height: 1.5;
   display: inline-block;
   color: rgba(255, 255, 255, 0.7);
+}
+
+.tutorials {
+  background-image: url("../img/bg7.jpg");
+  background-position: -5%;
+  height: 850px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.tutorials .smartfone {
+  height: 651px;
+  margin-right: 290px;
+}
+
+.text_tutorials {
+  width: 470px;
+  margin-left: 225px;
+}
+.text_tutorials h3 {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+.text_tutorials p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 60px;
+}
+.text_tutorials h4 {
+  font-size: 15px;
+  background-color: #11749e;
+  display: inline-block;
+  padding-left: 19px;
+  padding-top: 14px;
+  padding-bottom: 13px;
+  margin: 12px 0;
+}
+
+.design {
+  padding-right: 135px;
+}
+
+.code {
+  padding-right: 219px;
+}
+
+.defferent {
+  padding-right: 159px;
 }
 
 /*# sourceMappingURL=style.css.map */
