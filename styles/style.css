@@ -389,4 +389,72 @@ h1 {
   font-size: 15px;
 }
 
+.contact {
+  height: 850px;
+  background-image: url("../img/bg14.jpg");
+}
+
+.header_contact {
+  padding-top: 100px;
+}
+.header_contact .c {
+  font-size: 247px;
+  color: rgba(215, 215, 215, 0.3);
+  position: relative;
+  margin: 0;
+  text-align: center;
+}
+.header_contact h2 {
+  font-size: 37px;
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  text-align: center;
+  margin-top: -170px;
+}
+
+.form {
+  padding-top: 170px;
+}
+
+.submit {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.submit .small_form {
+  width: 370px;
+  height: 50px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  font-size: 15px;
+  margin: 0 12px 0 12px;
+}
+.submit .big_form {
+  width: 1170px;
+  height: 150px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  font-size: 15px;
+  margin-top: 40px;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+  font-size: 15px;
+}
+
+.button {
+  background-color: #11749e;
+  height: 65px;
+  width: 225px;
+  color: white;
+  font-size: 24px;
+  margin-top: 45px;
+  border: none;
+}
+
 /*# sourceMappingURL=style.css.map */
