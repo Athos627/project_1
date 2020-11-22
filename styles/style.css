@@ -457,4 +457,21 @@ h1 {
   border: none;
 }
 
+footer {
+  height: 110px;
+  background-color: #222222;
+  font-size: 13px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+footer p {
+  margin: 0 0 0 220px;
+  color: rgba(226, 226, 226, 0.8);
+}
+footer img {
+  margin: 0 220px 0 0;
+}
+
 /*# sourceMappingURL=style.css.map */
