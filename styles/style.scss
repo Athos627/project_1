@@ -1,9 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+  font-family: 'GothamBold';
+  src: url('../fonts/GothamBold.eot');
+  src: url('../fonts/GothamBold.eot') format('embedded-opentype'),
+  url('../fonts/GothamBold.woff2') format('woff2'),
+  url('../fonts/GothamBold.woff') format('woff'),
+  url('../fonts/GothamBold.ttf') format('truetype'),
+  url('../fonts/GothamBold.svg#GothamBold') format('svg');
+}
+
+@font-face {
+  font-family: 'GothamMedium';
+  src: url('../fonts/GothamMedium.eot');
+  src: url('../fonts/GothamMedium.eot') format('embedded-opentype'),
+  url('../fonts/GothamMedium.woff2') format('woff2'),
+  url('../fonts/GothamMedium.woff') format('woff'),
+  url('../fonts/GothamMedium.ttf') format('truetype'),
+  url('../fonts/GothamMedium.svg#GothamMedium') format('svg');
+}
+
+@font-face {
+  font-family: 'GothamBook';
+  src: url('../fonts/GothamBook.eot');
+  src: url('../fonts/GothamBook.eot') format('embedded-opentype'),
+  url('../fonts/GothamBook.woff2') format('woff2'),
+  url('../fonts/GothamBook.woff') format('woff'),
+  url('../fonts/GothamBook.ttf') format('truetype'),
+  url('../fonts/GothamBook.svg#GothamBook') format('svg');
+}
+
+@font-face {
+  font-family: 'robotoboldcondensed';
+  src: url('../fonts/robotoboldcondensed.eot');
+  src: url('../fonts/robotoboldcondensed.eot') format('embedded-opentype'),
+  url('../fonts/robotoboldcondensed.woff2') format('woff2'),
+  url('../fonts/robotoboldcondensed.woff') format('woff'),
+  url('../fonts/robotoboldcondensed.ttf') format('truetype'),
+  url('../fonts/robotoboldcondensed.svg#robotoboldcondensed') format('svg');
+}
+
+@font-face {
+  font-family: 'MyriadProRegular';
+  src: url('../fonts/MyriadProRegular.eot');
+  src: url('../fonts/MyriadProRegular.eot') format('embedded-opentype'),
+  url('../fonts/MyriadProRegular.woff2') format('woff2'),
+  url('../fonts/MyriadProRegular.woff') format('woff'),
+  url('../fonts/MyriadProRegular.ttf') format('truetype'),
+  url('../fonts/MyriadProRegular.svg#MyriadProRegular') format('svg');
+}
+
 body {
   margin: 0 auto;
   padding: 0;
   background-color: black;
-  font-family: sans-serif;
-  max-width: 1600px;
+  font-family: 'GothamBook', sans-serif;
+  width: 1600px;
   color: white;
 }
 
@@ -21,10 +74,16 @@ body {
   background-color: rgb(17,116,158);
   box-shadow: 12px 9px rgba(255,255,255,0.5);
   display: inline-block;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
 
   p {
     font-size: 31px;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
   }
 }
 
@@ -41,6 +100,7 @@ body {
     li {
       padding: 0 30px;
       font-size: 20px;
+      font-family: 'MyriadProRegular', sans-serif;
 
       img {
         background-color: black;
@@ -49,8 +109,6 @@ body {
     }
   }
 }
-
-
 
 .main{
   height: 880px;
@@ -69,15 +127,17 @@ body {
     letter-spacing: 20px;
     padding: 0;
     margin: 0;
+    font-family: 'GothamMedium', sans-serif;
   }
 }
 
 h1 {
   font-size: 152.54px;
+  font-family: 'GothamBold', sans-serif;
   margin: 0;
   padding: 0;
   text-transform: uppercase;
-  font-weight: bold;
+  color: rgb(245,245,245);
 }
 
 #features {
@@ -99,6 +159,7 @@ h1 {
   text-align: center;
   padding-top: 100px;
   padding-bottom: 65px;
+  font-family: 'robotoboldcondensed', sans-serif;
 }
 
 .awesome {
@@ -107,7 +168,8 @@ h1 {
   z-index: 2;
   margin: 0;
   text-align: center;
-  margin-top: -240px;
+  margin-top: -235px;
+  font-family: 'GothamMedium', sans-serif;
 }
 
 .features{
@@ -120,7 +182,7 @@ h1 {
 
 .feature {
   height: 275px;
-  width: 255px;
+  width: 260px;
   margin: 0 20px;
   text-align: center;
   display: flex;
@@ -130,11 +192,13 @@ h1 {
   h3 {
     font-size: 18px;
     margin-bottom: 30px;
+    font-family: 'GothamMedium', sans-serif;
   }
   p {
     font-size: 15px;
     margin: 0;
-
+    line-height: 1.5;
+    color: rgba(255,255,255,0.7);
   }
 }
 
@@ -173,6 +237,7 @@ h1 {
 
   h3 {
     font-size: 25px;
+    font-family: 'GothamMedium', sans-serif;
   }
   p {
     font-size: 15px;
@@ -185,6 +250,14 @@ h1 {
   color: rgb(34,34,34);
   padding: 100px 250px 0 80px;
   line-height: 1.5;
+
+  h3 {
+    font-size: 25px;
+    font-family: 'GothamMedium', sans-serif;
+  }
+  p {
+    font-size: 15px;
+  }
 }
 
 .over_header {
@@ -206,21 +279,25 @@ h1 {
     position: relative;
     margin: 0;
     text-align: center;
+    font-family: 'robotoboldcondensed', sans-serif;
   }
 
   h2{
-    font-size: 37px;
+    font-size: 37.55px;
     position: relative;
     z-index: 1;
     margin: 0;
     text-align: center;
     margin-top: -170px;
+    font-family: 'GothamMedium', sans-serif;
+    color: rgb(34,34,34);
   }
 
   h3 {
     font-size: 30px;
     text-align: center;
     margin-top: 100px;
+    color: rgb(34,34,34);
   }
 }
 
@@ -239,6 +316,7 @@ h1 {
       color: rgba(17,116,158,0.9);
       font-size: 18px;
       text-align: center;
+      font-family: 'GothamMedium', sans-serif;
     }
 
     img {
@@ -307,6 +385,7 @@ h1 {
   h3 {
     font-size: 25px;
     margin-bottom: 40px;
+    font-family: 'GothamMedium', sans-serif;
   }
 
   p {
@@ -324,6 +403,7 @@ h1 {
     padding-top: 14px;
     padding-bottom: 13px;
     margin: 12px 0;
+    font-family: 'GothamMedium', sans-serif;
   }
 }
 
@@ -353,6 +433,7 @@ h1 {
     position: relative;
     margin: 0;
     text-align: center;
+    font-family: 'robotoboldcondensed', sans-serif;
   }
 
   h2{
@@ -362,6 +443,7 @@ h1 {
     margin: 0;
     text-align: center;
     margin-top: -170px;
+    font-family: 'GothamMedium', sans-serif;
   }
 
   h3 {
@@ -384,6 +466,7 @@ h1 {
   color: black;
   text-align: center;
   padding: 0 15px;
+  font-family: 'GothamMedium', sans-serif;
 }
 
 .portret {
@@ -434,6 +517,7 @@ h1 {
     position: relative;
     margin: 0;
     text-align: center;
+    font-family: 'robotoboldcondensed', sans-serif;
   }
 
   h2{
@@ -443,6 +527,7 @@ h1 {
     margin: 0;
     text-align: center;
     margin-top: -170px;
+    font-family: 'GothamMedium', sans-serif;
   }
 }
 
@@ -492,6 +577,7 @@ h1 {
   font-size: 24px;
   margin-top: 45px;
   border: none;
+  font-family: 'GothamMedium', sans-serif;
 }
 
 footer {
@@ -507,6 +593,7 @@ footer {
   p {
     margin: 0 0 0 220px;
     color: rgba(226, 226, 226, 0.8);
+    font-family: 'Roboto', sans-serif;
   }
 
   img {
