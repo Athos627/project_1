@@ -2965,6 +2965,7 @@ body {
   flex-flow: row wrap;
   justify-content: space-evenly;
   align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .icon {
@@ -2989,6 +2990,7 @@ body {
   display: inline-block;
 }
 .nav ul {
+  margin: 0;
   list-style: none;
   display: flex;
   flex-flow: row wrap;
@@ -2999,10 +3001,20 @@ body {
   padding: 0 30px;
   font-size: 20px;
   font-family: "MyriadProRegular", sans-serif;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  border-bottom: 6px solid transparent;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: white;
 }
 .nav ul li img {
-  background-color: black;
   padding: 5px;
+}
+
+.menu_home:hover, .menu_pages:hover, .menu_features:hover, .menu_extensions:hover, .menu_tutorials:hover, .menu_contact:hover {
+  border-bottom: 6px solid #11749e;
 }
 
 #main {
